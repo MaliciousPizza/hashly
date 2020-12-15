@@ -25,9 +25,9 @@ else:
 
 try:
 
-    pprint(your_datas[r"C:\Users\Franklin\Desktop\pdf_test\Anchorage Nursing.pdf"])
+    pprint(your_datas[r"insert file name"])
 except:
-    file_path = r'C:\Users\Franklin\Desktop\pdf_test\Anchorage Nursing.pdf'
+    file_path = r'insert file name'
     file_hash = md5_hash(file_path)
     file_size = check_size(file_path)
     file_type = check_file_type(file_path)
@@ -38,7 +38,7 @@ except:
 
         temp = data
 
-        y = {r'C:\Users\Franklin\Desktop\pdf_test\Anchorage Nursing.pdf':{
+        y = {r'insert file name':{
             'file_name' : file_name,
             'file_type' : file_type,
             'file_hash' : file_hash,
