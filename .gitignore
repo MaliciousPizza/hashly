@@ -1,0 +1,8 @@
+all_your_datas.json
+all_your_datas copy.json
+baseline_hashes.json
+text.txt 
+
+/venv
+/.vscode
+/__pycache__
